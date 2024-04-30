@@ -5,6 +5,9 @@ const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
     routes: [
       // Definisci le tue route qui
+
+
+
     ],
 });
 
