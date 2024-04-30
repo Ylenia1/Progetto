@@ -4,8 +4,14 @@
     <router-view/>
     <Jumbotron />
     <Features />
+    <PortfolioComponent />
+    <ResumeComponent />
+    <TestimonialComponent />
+    <nuovazona/>
     <frecciaSu />
-    <nuovazona />
+   <ClientsComponent/>
+   <MyBlog />
+   <ContactMe />
     <appFooter />
  
 
@@ -20,9 +26,14 @@ import Navbar from './components/Navbar.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import frecciaSu from './components/frecciaSu.vue';
 import Features from './components/Features.vue'; 
-import appFooter from './components/appFooter.vue';/*
-import nuovazona from './components/nuovazona.vue';*/
-
+import PortfolioComponent from './components/PortfolioComponent.vue';
+import ResumeComponent from './components/ResumeComponent.vue';
+import appFooter from './components/appFooter.vue';
+import TestimonialComponent from './components/TestimonialComponent.vue';
+import nuovazona from './components/nuovazona.vue';
+import MyBlog from './components/MyBlog.vue'
+import ContactMe from './components/ContactMe.vue'
+;import ClientsComponent from './components/ClientsComponent.vue';
 
 
 
@@ -32,9 +43,16 @@ export default {
     Navbar,
     Jumbotron,
     frecciaSu,
-    Features,/*
-    nuovazona,*/
+    Features,
+    PortfolioComponent,
+    ResumeComponent,
+    nuovazona,
+    ContactMe,
+    TestimonialComponent,
+    MyBlog,
     appFooter,
+    ClientsComponent,
+    
  
 
   }  }
